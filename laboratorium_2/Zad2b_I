@@ -1,0 +1,13 @@
+"""
+2b. Utwórz funkcję, która otrzyma w parametrze listę zawierającą 5 dowolnych
+liczb, każdy jej element pomnoży przez 2, a na końcu ją zwróci. Zadanie
+należy wykonać w 2 wersjach:
+
+i. Wykorzystując pętle for .
+ii. Wykorzystując listę składaną.
+"""
+numList = [4,9,12,16,32]
+newList = [2,2,2,2,2]
+
+multipliedList= [item1 * item2 for item1, item2 in zip(numList,newList)]
+print(multipliedList)
