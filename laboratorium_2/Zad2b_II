@@ -1,0 +1,16 @@
+"""
+2b. Utwórz funkcję, która otrzyma w parametrze listę zawierającą 5 dowolnych
+liczb, każdy jej element pomnoży przez 2, a na końcu ją zwróci. Zadanie
+należy wykonać w 2 wersjach:
+
+i. Wykorzystując pętle for .
+ii. Wykorzystując listę składaną.
+"""
+y = 2
+def print_numbers(numbers):
+    for x in numbers:
+        print(numList*NewList)
+numList = [4,9,12,16,32]
+newList = [2,2,2,2,2,2]
+
+print_numbers(numList)
