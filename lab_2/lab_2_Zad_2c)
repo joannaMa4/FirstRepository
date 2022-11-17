@@ -1,0 +1,26 @@
+"""
+2c. Utwórz funkcję, która otrzyma w parametrze listę 10 liczb (rekomendowane
+wykorzystanie funkcji range ), a następnie wyświetli jedynie parzyste elementy.
+"""
+
+
+a=0;b=9
+
+for i in range(a,b):
+  if i%2!=0:
+    pass
+  else:
+    print(i,end=" ")
+
+
+"""
+import numpy as np
+
+a = 0;
+b = 9;
+li = np.array(range(a,b))
+
+# wyświetlanie parzystych liczb
+even_num = li[li % 2 == 0];
+print(even_num)
+"""
