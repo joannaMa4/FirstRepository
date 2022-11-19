@@ -1,0 +1,13 @@
+"""
+Zad. 2. Stworzyć funkcję, która przyjmie 2 argumenty typu int , a następnie zwróci wynik
+mnożenia obu liczb.
+
+"""
+def multiply_numbers(x,y):
+
+    return x * y;
+
+num1 = 2;
+num2 = 4;
+
+print("2*4 =", multiply_numbers(num1,num2))
