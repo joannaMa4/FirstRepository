@@ -1,0 +1,25 @@
+"""
+4. Stworzyć funkcję, która przyjmie 3 argumenty typu int i sprawdzi czy suma dwóch
+pierwszych liczb jest większa lub równa trzeciej, a następnie zwróci tę informację
+jako typ logiczny bool
+
+"""
+
+"definicja funkcji porównującej"
+def compNumb(x, y, z):
+
+    if (x+y>=z):
+        return True
+
+
+    elif(x+y<z):
+        return False
+    else:
+        return compNumb(x,y,z)
+
+num = int(input("Wprowadź liczby: "))
+if (compNumb(x, y, z)):
+    print(num, "liczba parzysta")
+else:
+    print(num, "liczba nieparzysta")
+
