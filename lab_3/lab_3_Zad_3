@@ -7,22 +7,19 @@ wykorzystując warunek logiczny wyświetlić prawidłowy tekst "Liczba parzysta"
 """
 
 
-"""
+def evenOdd(n):
+
+    if (n % 2 == 0):
+        return True
+
+
+    elif (n % 2 != 0):
+        return False
+    else:
+        return evenOdd(n)
+    
 num = int(input("Wprowadź liczbę: "))
-mod = num % 2
-
-if mod > 0:
-    print("To jest liczna nieparzysta.")
+if (evenOdd(num)):
+    print(num, "liczba parzysta")
 else:
-    print("To jest liczba parzysta.")
-"""
-
-def compare_EvenOdd(int x, int, y) :
-
-
-    if x % 2 ==0 && y% 2==0 || x%2 != 0 && y%2 != 0
-    return True
-    else
-    return False
-
-
+    print(num, "liczba nieparzysta")
