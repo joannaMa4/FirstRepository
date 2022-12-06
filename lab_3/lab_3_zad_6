@@ -1,0 +1,11 @@
+"""
+6. Stworzyć funkcję, która przyjmuje 2 argumenty typu list i zwraca wynik typu list .
+Funkcja ma za zadanie złączyć przekazane listy w jedną, usunąć duplikaty, każdy
+element podnieść do potęgi 3 stopnia, a następnie zwrócić powstałą listę.
+
+"""
+
+firstlist = [10, 15, 11]
+secondlist = [12,13, 4]
+
+newlist
