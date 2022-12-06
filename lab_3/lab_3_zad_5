@@ -1,0 +1,23 @@
+"""
+5. Stworzyć funkcję, która przyjmie 2 argumenty. Pierwszy typu list , a drugi typu int
+. Funkcja ma sprawdzić (zwracając typ logiczny bool ), czy lista z parametru
+pierwszego zawiera taką wartość jaką przekazano w parametrze drugim.
+
+"""
+
+
+"funkcja checkArgs, to funkcja sprawdzająca argumenty"
+
+def checkArgs(x,mylist):
+
+    "int"
+    x = 1
+    mylist = [1,2,4]
+
+    if (x in mylist):
+        return True
+        print("liczba znajduje się w liscie")
+
+    else:
+        return False
+        print("liczba nie znajduje się w liscie")
