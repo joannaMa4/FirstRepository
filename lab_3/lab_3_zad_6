@@ -4,8 +4,12 @@ Funkcja ma za zadanie złączyć przekazane listy w jedną, usunąć duplikaty, 
 element podnieść do potęgi 3 stopnia, a następnie zwrócić powstałą listę.
 
 """
+def print_list(firstList, secondList):
 
-firstlist = [10, 15, 11]
-secondlist = [12,13, 4]
+firstList = [10, 15, 11]
+secondList = [12,13, 4]
 
-newlist
+"firstlist.extend(secondlist)   wykorzystanie metody extend dodaje listy do siebie
+thirdList = firstList + secondList
+lastList = thirdList^3
+print_list(lastList)
