@@ -36,12 +36,8 @@ thres = 0.45 # Threshold to detect object
 nms_threshold = 0.3
 #cap = cv2.VideoCapture(0)
 img = cv2.imread('pliki/kot1.jpg')
-imgGray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
-imgBlur = cv2.GaussianBlur(img,(7,7),0)
-imgCanny = cv2.Canny(img,150,200)
-#cap.set(3,640)
-#cap.set(4,480)
-#cap.set(10,70)
+
+
 classNames= []
 classFile = 'detekcja/coco.names'
 with open(classFile,'rt') as f:
@@ -71,7 +67,4 @@ for i in indices:
         cv2.FONT_HERSHEY_SIMPLEX,0.8,(0,255,0),2)
 
 cv2.imshow("Output",img)
-cv2.imshow("Blur", imgBlur)
-cv2.imshow("Canny", imgCanny)
-cv2.imshow("Gray", imgGray)
 cv2.waitKey(0)
